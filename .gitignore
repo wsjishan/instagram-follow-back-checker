@@ -1,0 +1,51 @@
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE-specific directories
+.idea/
+.vscode/
+
+# Environment variables
+.env
+
+# Windows-specific files
+$RECYCLE.BIN/
+*.lnk
+
+# Linux-specific files
+*~
+
+# Backup files
+*.bak
+*.old
+*.orig
+
+# Temporary files
+*.tmp
