@@ -25,8 +25,8 @@ if followers_data and following_data:
         if not_following_back:
             f.write(f"Count of people who are not following you back: {len(not_following_back)}\n\n")
             f.write("People who are not following you back:\n\n")
-            for user, url in not_following_back.items():
-                f.write(f"{user}: {url}\n\n")
+            for index, (user, url) in enumerate(not_following_back.items(), start=1):
+                f.write(f"{index}. {user}: {url}\n\n")
         else:
             f.write("No users found who are not following you back.\n\n")
 
