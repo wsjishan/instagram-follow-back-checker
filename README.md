@@ -33,7 +33,7 @@ This Python script helps you identify who you are following on Instagram but who
 2. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/yourusername/instagram-follow-back-checker.git
+    git clone https://github.com/wsjishan/instagram-follow-back-checker.git
     cd instagram-follow-back-checker
     ```
 
